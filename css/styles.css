@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.navbar {
+  background-color: #436c72;
+}
+
+.navbar-toggle{
+  background-color: #436c72;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #f5f2f5;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #436c72;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.info-item {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#intro {
+  background-color: #f5f2f5;
+}
+
+h1 {
+text-align: center;
+font-weight: bold;
+font-family: 'Indie Flower';
+}
+
+/*high-res screen */
+@media screen and (min-height: 900px){
+  #main-image {
+    background: url('../images/Shiatzu_colored_900.png') no-repeat center center;
+    background-size: contain;
+    height: 750px;
+  }
+  h1{
+    font-size: 500%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-height: 700px){
+  #main-image {
+    background: url('../images/Shiatzu_colored_768.png') no-repeat center center;
+    background-size: contain;
+    height: 450px;
+  }
+  h1{
+    font-size: 400%;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-height: 700px){
+  #main-image {
+    background: url('../images/Shiatzu_colored_480.png') no-repeat center center;
+    background-size: contain;
+    height: 160px;
+  }
+}
+
+h3 {
+  font-family: 'Indie Flower';
+  font-weight: bold;
+}
+
+#about {
+  background-color: #db90b7;
+}
+
+#breather{
+  background: url('../images/flower.png') no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+#treatments {
+  background-color: #a53569;
+}
+
+#contact {
+  background-color: #86a5a2;
+}
+
+footer {
+  background-color: #f5f2f5;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* colors:
+#f5f2f5 - light grey
+#86a5a2 - light green
+#436c72 - dark green
+#db90b7 - light pink
+#a53569 - dark pink */

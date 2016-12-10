@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tali Shiatsu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Tali Shiatsu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container" id="intro">
+  <h1>Tali Shiatsu</h1>
+  <div id="main-image"></div>
+  <h1>You're in Good Hands</h1>
+</section>
+
+<section class="container info-item" id="about">
+  <h3>About </h3>
+  <p>shiatsu s a form of Japanese bodywork based on the theoretical framework of traditional Chinese medicine.</p>
+ <p>In the Japanese language, shiatsu means "finger pressure".</p>
+  <p>Shiatsu techniques include massages with fingers, thumbs, feet and palms;
+    assisted stretching; and joint manipulation and mobilization.</p>
+  <p>Tali is a certified shiatsu practitioner, who combines her knowledge, intuition and heart when treating her patients.</p>
+</section>
+
+<section class="container" id="breather">
+</section>
+
+<section class="container info-item" id="treatments">
+    <h3>Treatments</h3>
+   <p>Tali offers private treatments in a homely environment in south Tel Aviv.</p>
+   <p>Treatments in other cities are also availabe for companies and groups.</p>
+ </section>
+
+<section class="container info-item" id="contact">
+  <h3>Contact</h3>
+  <div id="contactText">
+  <p> Looking forward to hearing from you!</p>
+</div>
+  <form class="form-horizontal" id="contactform" method="POST">
+    <div class="form-group">
+      <label for="inputName" class="col-sm-2 control-label">Name</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="name" class="form-control" id="inptName" placeholder="Name" name="name">
+      </div>
+    </div>
+  <div class="form-group">
+    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10 col-md-6">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="replyTo">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPhone" class="col-sm-2 control-label">Phone Number</label>
+    <div class="col-sm-10 col-md-6">
+      <input type="phone" class="form-control" id="inputPhone" placeholder="Phone Number" name="phone">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputMessage" class="col-sm-2 control-label">Message</label>
+    <div class="col-sm-10 col-md-6">
+      <textarea class="form-control" rows="4" id="inputMessage" placeholder="Message" name="message"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Send</button>
+    </div>
+  </div>
+</form>
+</section>
+
+<footer class="container">built by <a href="https://github.com/shirax">shira,</a> 2016</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
