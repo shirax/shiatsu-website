@@ -13,7 +13,7 @@ var $contactText = $('#contactText');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
-		url: '//formspree.io/info@talishiatsu.com',
+		url: '//formspree.io/tali.shiatzu@gmail.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
