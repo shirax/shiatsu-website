@@ -1,4 +1,4 @@
-$(document).click(function (event) {
+$(document).on("click", function (event) {
     var clickover = $(event.target);
     var barOpened = $("#myNavbar").hasClass("in");
     if (barOpened === true && !clickover.hasClass("navbar-toggle")) {
@@ -10,7 +10,7 @@ $(document).click(function (event) {
 var $contactForm = $('#contactform');
 var $contactText = $('#contactText');
 
-$contactForm.submit(function(event) {
+$contactForm.on("submit", function(event) {
 	event.preventDefault();
 	$.ajax({
 		url: '//formspree.io/tali.shiatzu@gmail.com',
