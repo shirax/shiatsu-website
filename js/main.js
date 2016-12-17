@@ -10,8 +10,8 @@ $(document).click(function (event) {
 var $contactForm = $('#contactform');
 var $contactText = $('#contactText');
 
-$contactForm.submit(function(e) {
-	e.preventDefault();
+$contactForm.submit(function(event) {
+	event.preventDefault();
 	$.ajax({
 		url: '//formspree.io/tali.shiatzu@gmail.com',
 		method: 'POST',
