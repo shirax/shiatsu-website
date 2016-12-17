@@ -1,7 +1,6 @@
 $(document).on("click", function (event) {
-    var clickover = $(event.target);
     var barOpened = $("#myNavbar").hasClass("in");
-    if (barOpened === true && !clickover.hasClass("navbar-toggle")) {
+    if (barOpened === true) {
         $("#myNavbar").collapse('hide');
     }
 });
