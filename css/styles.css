@@ -22,10 +22,12 @@ body {
 
 .info-item {
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 #intro {
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #f5f2f5;
 }
 
